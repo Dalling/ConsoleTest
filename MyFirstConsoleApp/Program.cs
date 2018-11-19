@@ -10,6 +10,15 @@ namespace MyFirstConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello Word");
+            Console.WriteLine("Args Length:" + args.Length);
+
+            for(int i = 0; i < args.Length; i++)
+            {
+                Console.WriteLine("argw[" + i + "] = " + args[i]);
+            }
+
+            Console.ReadKey();
         }
     }
 }
